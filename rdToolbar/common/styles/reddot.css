@@ -1,0 +1,110 @@
+/********************************
+* RedDot Only Styles
+********************************/
+.RedDot a,
+.RedDot a:hover,
+.RedDotMenu a,
+.RedDotMenu a:hover,
+.RedDot { 
+    background: transparent; 
+    border: 0px none; 
+    color: red !important; 
+    font-weight: bold; 
+    font-size: 11px; 
+    line-height: 8px;
+    margin: 0;
+    padding: 0;
+}
+.RedDotOpenClose {
+	color: red !important;
+}
+.RedDotOpenClose span {
+	font-weight: normal !important;
+	color: red !important;	
+}
+.RedDot .details {
+	color: #5E5E5E !important;
+	font-size: 10px;
+	font-weight: normal !important;
+}
+.RedDot .details .details-title {
+	color: #242424 !important;
+	font-weight: bold !important;
+}
+.RedDotOr {
+	display: block;
+	color: black !important;
+	padding: 4px 0 4px 20px;
+	width: 100%;
+}
+.RedDotInline {
+	display: inline-block;
+}
+.additionalhtml {
+	position: relative;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.reddothover {
+    border: 1px dotted red;
+}
+.reddotnohover {
+    border: none;
+}
+div.reddotnohover-open {
+	border: 1px solid red;
+}
+.RedDotPagePart {
+	margin-bottom:10px;
+	border:2px solid black;
+	padding:8px;
+	position:relative;
+	font-weight:bold;
+}
+.RedDotPagePart select {
+	height:20px; 
+	font-size: 11px;
+}
+.RedDotMenu {
+    font-weight:bold;
+    border:1px solid red;
+    background-color:white;
+    color: red;
+    position:relative;
+    zoom:1;
+    margin-top:0px;
+    margin-bottom:0;
+    padding: 5px;
+    xz-index:20000;
+}
+.RedDotContrast {
+    border: 1px solid red;
+    background: white;
+}
+.SubRedDot img,
+.RedDot img {
+    display: inline !important;
+    margin: 0 !important;
+    padding: 0 ;
+    float: none !important;
+	vertical-align:text-bottom;
+}
+.SubRedDot
+.RedDot{
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.RedDotLink a {
+    background: none !important;
+}
+.RedDotClear a,
+.RedDotClear img { 
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+    right: auto !important;
+}

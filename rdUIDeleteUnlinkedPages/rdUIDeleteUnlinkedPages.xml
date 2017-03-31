@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<PLUGINS>
+	<PLUGIN 
+	name="PLUGIN: Delete Unlinked Pages" 
+	url="rdUIDeleteUnlinkedPages/rdUIDeleteUnlinkedPages.asp"
+	compatibility="7.5"
+	company="Areeba" contact="Kim Dezen"
+	email="kim@kimdezen.com" telefon="+61 3 9629 3111"
+	website="www.areeba.com.au">
+	<DESCRIPTIONS>
+		<DEU name="Löschen ungekoppelter Seiten"/>
+		<ENG name="Delete Unlinked Pages"/>
+	</DESCRIPTIONS>
+	<TARGETS>
+		<TARGET target="ioTreeApp1805" />
+    </TARGETS>
+	<ICON source="../ActionMenuIcons/Common_Delete.gif" alt="Delete Unlinked Pages" />
+	<OPENWINDOWPARAMETER features="toolbar=0,directories=0,status=0,menubar=0,width=680,height=270" />
+	</PLUGIN>
+</PLUGINS>

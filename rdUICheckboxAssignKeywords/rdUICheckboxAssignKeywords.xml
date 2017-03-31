@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<PLUGINS>
+	<PLUGIN 
+	name="PLUGIN: Checkbox Keyword Assignment" 
+	url="rdUICheckboxAssignKeywords/rdUICheckboxAssignKeywords.asp?shownCategories="
+	compatibility="7.5"
+	company="Areeba Solutions" contact="Kim Dezen"
+	email="kim@kimdezen.com" telefon="+61 3 9629 3111"
+	website="www.areeba.com.au">
+	<DESCRIPTIONS>
+		<DEU name="Checkbox Stichwort Zuteilung"/>
+		<ENG name="Checkbox Keyword Assignment"/>
+	</DESCRIPTIONS>
+	<TARGETS>
+		<TARGET target="ioTreeProjectPage" /> <!-- SMARTTREE page actions -->
+		<TARGET target="ioTreeProjectLink" /> <!-- SMARTTREE link actions -->
+		<TARGET target="ioDevDialogPageActions" /> <!-- SMARTEDIT page actions -->
+    </TARGETS>
+	<ICON source="../ActionMenuIcons/Keywords.gif" alt="Checkbox Keyword Assignment" />
+	<OPENWINDOWPARAMETER features="toolbar=0,directories=0,status=0,menubar=0,width=680,height=500" />
+	</PLUGIN>
+</PLUGINS>

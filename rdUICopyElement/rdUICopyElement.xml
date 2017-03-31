@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<PLUGINS>
+	<PLUGIN 
+	name="PLUGIN: Copy Element" 
+	url="rdUICopyElement/rdUICopyElement.asp"
+	compatibility="10.0+"
+	company="Kim Dezen" contact="Kim Dezen"
+	email="kim@kimdezen.com"
+	website="www.kimdezen.com">
+	<DESCRIPTIONS>
+		<DEU name="Kopie Element"/>
+		<ENG name="Copy Element"/>
+	</DESCRIPTIONS>
+	<TARGETS>
+		<TARGET target="ioTreeProjectTE24" /> <!-- Delivery Server Constraint placeholder -->
+		<TARGET target="ioTreeProject4143" /> <!-- Background placeholder -->
+		<TARGET target="ioTreeProject4146" /> <!-- Database Content placeholder -->
+		<TARGET target="ioTreeProject4148" /> <!-- Image placeholder -->
+		<TARGET target="ioTreeProject4152" /> <!-- List Entry placeholder -->
+		<TARGET target="ioTreeProject4154" /> <!-- Media placeholder -->
+		<TARGET target="ioTreeProject4155" /> <!-- Option List placeholder -->
+		<TARGET target="ioTreeProject4156" /> <!-- Standard placeholder -->
+		<TARGET target="ioTreeProject4157" /> <!-- Text placeholder -->
+		<TARGET target="ioTreeProject4159" /> <!-- Headline placeholder -->
+		<TARGET target="ioTreeProject4160" /> <!-- Transfer placeholder -->
+		<TARGET target="ioTreeProject4162" /> <!-- Project Content placeholder -->
+    </TARGETS>
+	<ICON source="../ActionMenuIcons/Common_New.gif" alt="Checkbox Keyword Assignment" />
+	<OPENWINDOWPARAMETER features="scrollbars=1,toolbar=0,directories=0,status=0,menubar=0,width=680,height=500" />
+	</PLUGIN>
+</PLUGINS>

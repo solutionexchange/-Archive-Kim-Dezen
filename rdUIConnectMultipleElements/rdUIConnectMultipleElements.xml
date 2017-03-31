@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<PLUGINS>
+	<PLUGIN 
+	name="PLUGIN: Connect to Multiple Elements in Clipboard" 
+	url="rdUIConnectMultipleElements/rdUIConnectMultipleElements.asp"
+	compatibility="7.5 - 9.0"
+	company="Areeba" contact="Kim Dezen"
+	email="kim@kimdezen.com" telefon="+61 3 9629 3111"
+	website="http://www.reddotcmsblog.com/author/kimdezen">
+	<DESCRIPTIONS>
+		<DEU name="Mehrere Elemente aus Zwischenablage einfügen"/>
+		<ENG name="Connect to Multiple Elements in Clipboard"/>
+	</DESCRIPTIONS>
+	<TARGETS>
+		<TARGET target="ioTreeProject4025" />
+		<TARGET target="ioTreeProject4030" />
+		<TARGET target="ioTreeProject4035" />
+    	</TARGETS>
+	<ICON source="../ActionMenuIcons/Common_PasteClipboard.gif" alt="Connect to multiple Elements in Clipboard" />
+	<OPENWINDOWPARAMETER features="toolbar=0,directories=0,status=0,menubar=0,width=680,height=250" />
+	</PLUGIN>
+</PLUGINS>

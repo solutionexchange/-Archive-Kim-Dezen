@@ -1,0 +1,422 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#reddot-menu-bar {
+	width: 100%;
+	border-bottom: 1px solid #000;
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+}
+
+.page-is-open {
+	border-bottom: none !important;
+}
+
+#reddot-menu-bar-buttons {
+	display: block;
+	min-height: 50px;
+	_height: 54px;
+	padding-top: 2px;
+	padding-left: 5px;
+	padding-right: 25px;
+	background-color: #494848;
+}
+
+/***********************************
+ * Buttons
+ ***********************************/
+#reddot-menu-bar-buttons  .reddot-menu-bar-button {
+	float: left;
+	display: inline;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+} 
+ 
+#reddot-menu-bar-buttons  .reddot-menu-bar-button a {
+	width: 165px;
+	height: 47px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	cursor: pointer;
+}
+
+#reddot-menu-bar-buttons  .open-page a,
+#reddot-menu-bar-buttons  .close-page a {
+	width: 196px;
+}
+
+#reddot-menu-bar-buttons .open-page a span {
+	background: url(../images/buttons/but_open.gif) 0 0 no-repeat;
+}
+
+#reddot-menu-bar-buttons .open-page a:hover span {
+	background: url(../images/buttons/but_open.gif) 0 -47px no-repeat;
+}
+
+#reddot-menu-bar-buttons .close-page a span {
+	background: url(../images/buttons/but_close.gif) 0 0 no-repeat;
+}
+
+#reddot-menu-bar-buttons .close-page a:hover span {
+	background: url(../images/buttons/but_close.gif) 0 -47px no-repeat;
+}
+
+#reddot-menu-bar-buttons .preview-page a span {
+	background: url(../images/buttons/but_pagepreview.gif) 0 0 no-repeat;
+}
+
+#reddot-menu-bar-buttons .preview-page a:hover span {
+	background: url(../images/buttons/but_pagepreview.gif) 0 -47px no-repeat;
+}
+
+#reddot-menu-bar-buttons .assign-keywords a span {
+	background: url(../images/buttons/but_keywords.gif) 0 0 no-repeat;
+}
+
+#reddot-menu-bar-buttons .assign-keywords a:hover span {
+	background: url(../images/buttons/but_keywords.gif) 0 -47px no-repeat;
+}
+
+#reddot-menu-bar-buttons .edit-filename a span {
+	background: url(../images/buttons/but_editfilename.gif) 0 0 no-repeat;
+}
+
+#reddot-menu-bar-buttons .edit-filename a:hover span {
+	background: url(../images/buttons/but_editfilename.gif) 0 -47px no-repeat;
+}
+
+#reddot-menu-bar-buttons .submit-worflow a span {
+	background: url(../images/buttons/but_submittoworkflow.gif) 0 0 no-repeat;
+}
+
+#reddot-menu-bar-buttons .submit-worflow a:hover span {
+	background: url(../images/buttons/but_submittoworkflow.gif) 0 -47px no-repeat;
+}
+
+#reddot-menu-bar-buttons .rdtoolbar {
+	float: right;
+	padding: 8px 50px 0 0;
+}
+
+/***********************************
+ * Page Info
+ ***********************************/
+#reddot-menu-bar-pageinfo {
+	color: #000;
+	font-size: 12px;
+	_font-size: 11.5px;
+	padding: 0px;
+	margin: 0px;
+	background-color: #fff;
+	width: 930px;
+}
+#reddot-menu-bar-pageinfo-inner {
+	padding: 5px 8px 5px 8px;
+	width: 100%;
+}
+
+#reddot-menu-bar-pageinfo p {
+	padding: 0;
+	margin: 0;
+}
+
+#reddot-menu-bar-pageinfo .column-1 {
+	float: left;
+	display: block;
+	height: 38px;
+	background: url(../images/backgrounds/bg_pageinfo.gif) 0 4px no-repeat;
+	width: 45px;
+}
+
+#reddot-menu-bar-pageinfo .column {
+	float: left;
+	display: block;
+	width: 285px;
+	padding-right: 5px;
+	padding-top: 4px;
+}
+
+#reddot-menu-bar-pageinfo .status-icon {
+	display: inline-block;
+	background: url(../images/icons/ico_released.gif) 3px -2px no-repeat;
+	padding-left: 20px;
+	padding-bottom: 1px;
+}
+
+#reddot-menu-bar-pageinfo .locked {
+	background: url(../images/icons/ico_locked.gif) 1px -1px no-repeat;
+}
+
+#reddot-menu-bar-pageinfo .waiting-release {
+	background: url(../images/icons/ico_waitingrelease.gif) 1px -1px no-repeat;
+}
+
+#reddot-menu-bar-pageinfo .waiting-correction {
+	background: url(../images/icons/ico_waitingcorrection.gif) 1px -1px no-repeat;
+}
+
+#reddot-menu-bar-pageinfo .draft {
+	background: url(../images/icons/ico_draft.gif) 1px -1px no-repeat;
+}
+
+#reddot-menu-bar-pageinfo a.email-link {
+	color: #000;
+	text-decoration: none;
+}
+
+#reddot-menu-bar-pageinfo a.email-link:hover,
+#reddot-menu-bar-pageinfo a.email-link:active {
+	text-decoration: underline;
+}
+
+#reddot-menu-bar-pageinfo #pageguid-holder {
+	font-size: 10px;
+}
+
+#reddot-menu-bar-pageinfo #error-messages {
+	display: none;
+}
+
+/***********************************
+ * Edit Meta Data
+ ***********************************/
+#reddot-menu-bar-metadata {
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	color: #000;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	background-color: #FDF3E9;
+	border-bottom: 1px solid #FF6000;
+	border-top: 1px solid #FF6000;
+}
+#reddot-menu-bar-metadata-inner {
+	padding: 7px 8px 8px 8px;
+	width: 100%;
+}
+
+#reddot-menu-bar-metadata p {
+	padding: 0 0 3px 0;
+	margin: 0;
+}
+
+#reddot-menu-bar-metadata .title a {
+	display: block;
+	width: 83px;
+	height: 28px;
+}
+
+#reddot-menu-bar-metadata .title a span {
+	background-image: url(../images/buttons/but_editmetadata.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+#reddot-menu-bar-metadata .title a:hover span {
+	background-position: 0 -28px;
+}
+
+#reddot-menu-bar-metadata .title a.arrow-up span {
+	background-position: 0 -56px;
+}
+
+#reddot-menu-bar-metadata .title a.arrow-up:hover span {
+	background-position: 0 -84px;
+}
+
+#reddot-menu-bar-metadata .column {
+	float: left;
+	display: block;
+	width: 285px;
+	padding-right: 8px;
+	padding-top: 4px;
+}
+
+#reddot-menu-bar-metadata .metadata-container {
+	padding-top: 3px;
+}
+
+#reddot-menu-bar-metadata .metadata-inner {
+	width: 700px;
+	padding-top: 6px;
+}
+
+#reddot-menu-bar-metadata .metadata-container strong {
+	color: #FF6000;
+}
+
+#reddot-menu-bar-metadata .divider {
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	display: block;
+	border-bottom: 1px dotted #FF6000;
+}
+
+#reddot-menu-bar-metadata .divider-last {
+	border-bottom: none;
+}
+
+#reddot-menu-bar-metadata .divider-robots {
+	padding-bottom: 0;
+}
+
+#reddot-menu-bar-metadata img.help {
+	position: relative;
+	padding-top: 1px;
+	top: 2px;
+	margin-left: 5px;
+} 
+
+/***********************************
+ * RedDot Start Page
+ ***********************************/
+body.reddot-start-page {
+	background-color: #EFEFEF;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
+}
+
+#reddot-start-page {
+	text-align: center;
+}
+
+#reddot-start-page-container {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 590px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#reddot-start-page .header {
+	width: 590px;
+	display: block;
+	padding-bottom: 30px;
+}
+
+#reddot-start-page .header .title {
+	width: 248px;
+	float: left;
+	display: block;
+	padding-top: 35px;
+	padding-left: 10px;
+}
+
+#reddot-start-page .header .reddot-start-title {
+	background: url(../images/backgrounds/bg_startpage.gif) 0 0 no-repeat;
+	height: 23px;
+	width: 248px;
+}
+
+#reddot-start-page .header p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+#reddot-start-page .logo {
+	float: right;
+	width: auto;
+	padding-right: 10px;
+}
+
+#reddot-start-page .start-page-section {
+	border: 1px solid #656565;
+	padding: 3px;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+
+#reddot-start-page .start-page-section .title {
+	height: 28px;
+	background: url(../images/backgrounds/bg_startpage_title.gif) 0 0 no-repeat;
+	display: block;
+	font-size: 14px;
+	color: #fff;
+}
+
+#reddot-start-page .start-page-section .title p {
+	margin: 0;
+	padding: 0 0 0 18px;
+	line-height: 1.8;
+	display: block;
+}
+
+#reddot-start-page .start-page-section .content {
+	margin: 0;
+	padding: 20px;
+}
+
+#reddot-start-page .start-page-section .content ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#reddot-start-page .start-page-section .content li {
+	padding: 0 0 10px 0;
+}
+
+#reddot-start-page .start-page-section .content a {
+	color: #000;
+	text-decoration: underline;
+}
+
+#reddot-start-page .start-page-section .content a:active,
+#reddot-start-page .start-page-section .content a:hover {
+	text-decoration: none;
+}
+
+
+
+/***********************************
+ * Utilities
+ ***********************************/
+.image-replace {
+	position: relative;
+	overflow: hidden;
+}
+
+.image-replace span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+/* clearfix for good browsers */
+html > body .clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* clearfix for IE/mac */
+.clearfix {
+	display: inline-block;
+}
+
+/* Hides from IE-mac, clearfix for IE/win and reset for not IE/mac */
+@media all {
+	* html .clearfix {
+		_height: 0;
+	}
+	
+	.clearfix {
+		display: block;
+	}
+}

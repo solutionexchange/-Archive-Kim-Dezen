@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>RedDot Menu Bar</title>
+
+<link rel="stylesheet" type="text/css" href="common/styles/menu.css" media="all" />
+<script src="common/js/jquery.1.4.2.min.js" type="text/javascript"></script>
+<script src="common/js/jquery.tooltip.js" type="text/javascript"></script>
+<script src="common/js/menubar.js" type="text/javascript"></script>
+            <script src="http://localhost/rqldotnet/mainmenu/common/js/rdToolbarStatus.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+        jQuery(document).ready(function() {
+               // set up page variables
+               rdToolbarStatus.vars.loginguid = '22189C8C4E54411E95B94027AFACB436';
+               rdToolbarStatus.vars.sessionkey = '22189C8C4E54411E95B94027AFACB436';
+               rdToolbarStatus.vars.pageguid = 'EC61D847DB2A46D7AAD02AD500FF04F8';
+               rdToolbarStatus.vars.defaultextension = '.htm';
+               // run the plugin 
+               rdToolbarStatus.init(); 
+        }); 
+    </script>
+
+</head>
+<body class="reddot-start-page">
+
+<div id="reddot-menu-bar" class="clearfix page-is-open">
+	<div id="reddot-menu-bar-buttons">
+		<div class="open-page reddot-menu-bar-button">
+			<a href="#" class="image-replace" title="Open Page">Open Page<span></span></a>
+		</div>
+		<!--<div class="close-page reddot-menu-bar-button">
+			<a href="#" class="image-replace">Close Page<span></span></a>
+		</div>-->
+		<!--
+		<div class="preview-page reddot-menu-bar-button">
+			<a href="#" class="image-replace" title="Preview Page">Preview Page<span></span></a>
+		</div>
+		<div class="assign-keywords reddot-menu-bar-button">
+			<a href="#" class="image-replace" title="Assign Keywords">Assign Keywords<span></span></a>
+		</div>-->
+		<div class="edit-filename reddot-menu-bar-button">
+			<a href="#" class="image-replace" title="Edit Filename">Edit Filename<span></span></a>
+		</div>
+		<div class="submit-worflow reddot-menu-bar-button">
+			<a href="#" class="image-replace" title="Submit to Workflow">Submit to Workflow<span></span></a>
+		</div>
+		<div class="rdtoolbar"><a href="http://www.kimdezen.com"><img src="common/images/buttons/but_rdtoolbar.gif" width="91" height="32" border="0" alt="RDToolbar : Developed by Kim Dezen (www.kimdezen.com)"></a></div>
+	</div>
+</div>
+<div id="reddot-menu-bar-pageinfo" class="clearfix">
+		<div id="reddot-menu-bar-pageinfo-inner" class="clearfix">
+			<div class="column-1"></div>
+			<div class="column-2">
+				<div class="column-2-inner clearfix">
+					<div class="column">
+						<p><strong>Status:</strong> <span id="status-holder"><img src="http://localhost/rqldotnet/MainMenu/common/images/icons/loading.gif" height="12" width="12" alt="" /></span></p>
+						<p><strong>Filename:</strong> <span id="filename-holder"><img src="http://localhost/rqldotnet/MainMenu/common/images/icons/loading.gif" height="12" width="12" alt="" /></span></p>
+					</div>
+					<div class="column">
+						<p><strong>Created:</strong> <span id="created-holder"><img src="http://localhost/rqldotnet/MainMenu/common/images/icons/loading.gif" height="12" width="12" alt="" /></span></p>
+						<p><strong>Modified:</strong> <span id="modified-holder"><img src="http://localhost/rqldotnet/MainMenu/common/images/icons/loading.gif" height="12" width="12" alt="" /></span></p>
+					</div>
+					<div class="column">
+						<p><strong>PageId:</strong> <span id="pageid-holder"><img src="http://localhost/rqldotnet/MainMenu/common/images/icons/loading.gif" height="12" width="12" alt="" /></span></p>
+						<p><strong>PageGUID:</strong> <span id="pageguid-holder"><span id="modified-holder"><img src="http://localhost/rqldotnet/MainMenu/common/images/icons/loading.gif" height="12" width="12" alt="" /></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<span id="error-messages"></span>
+	</div>
+<div id="reddot-menu-bar-metadata" class="clearfix">
+	<div id="reddot-menu-bar-metadata-inner" class="clearfix">
+		<div class="title clearfix"><a href="#" id="meta-button" class="image-replace" title="Edit Metadata">Edit Metadata<span></span></a></div>
+		<div id="metadata-container" class="metadata-container clearfix" style="display: none;">
+			<div class="metadata-inner clearfix">
+				<div class="divider">
+					<p><strong>Page Title:</strong> This is the title of the page</p>
+					<p><strong>Browser Title:</strong> This is the SEO browser title of the page <img src="common/images/icons/ico_help.gif" height="12" width="12" id="browsertitle-help" /></p> 
+				</div>
+				<div class="divider divider-last">
+					<p><strong>Description:</strong><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. <img src="common/images/icons/ico_help.gif" height="12" width="12" id="metadescription-help" /></p>
+				</div>
+				<div class="divider">
+					<p><strong>Keywords:</strong><br />Here is a really long description of the page here that goes over a couple lines <img src="common/images/icons/ico_help.gif" height="12" width="12" id="metakeywords-help" /></p>
+				</div>
+				<div class="divider divider-last divider-robots">
+					<p><strong>Robots:</strong> index/follow <img src="common/images/icons/ico_help.gif" height="12" width="12" class="help" id="robots-help" /></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="reddot-start-page">
+	<div id="reddot-start-page-container">
+		<div class="header clearfix">
+			<div class="title">
+				<div class="reddot-start-title"></div>
+				<p>xxxx Project Name Here xxxx</p>
+			</div>
+			<div class="logo">
+				<img src="common/images/backgrounds/bg_companylogo.gif" width="125" height="80" alt="Company Logo" />
+			</div>
+		</div>
+		
+		<div class="start-page-section">
+			<div class="title">
+				<p>Main Project Pages</p>
+			</div>
+			<div class="content">
+				<ul>
+					<li><a href="#">This is a link</a></li>
+					<li><a href="#">This is a link</a></li>
+					<li><a href="#">This is a link</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="start-page-section">
+			<div class="title">
+				<p>Landing Pages</p>
+			</div>
+			<div class="content">
+				<ul>
+					<li><a href="#">This is a link</a></li>
+					<li><a href="#">This is a link</a></li>
+					<li><a href="#">This is a link</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
