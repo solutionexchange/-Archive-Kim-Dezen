@@ -1,0 +1,18 @@
+<PLUGINS>
+	<PLUGIN name="PLUGIN: Checkbox Keyword Assignment" url="rdUICheckboxAssignKeywords/rdUICheckboxAssignKeywords.asp?shownCategories=" compatibility="11.0+" company="Kim Dezen" contact="Kim Dezen" email="kim@kimdezen.com" website="www.kimdezen.com">
+		<DESCRIPTIONS>
+			<DEU name="Checkbox Schlagwort Zuteilung"/>
+			<ENU name="Checkbox Keyword Assignment"/>
+		</DESCRIPTIONS>
+		<TARGETS>
+			<TARGET target="ioTreeProjectPage" />
+			<!-- SMARTTREE page actions -->
+			<TARGET target="ioTreeProjectLink" />
+			<!-- SMARTTREE link actions -->
+			<TARGET target="ioDevDialogPageActions" />
+			<!-- SMARTEDIT page actions -->
+		</TARGETS>
+		<ICON source="../ActionMenuIcons/Keywords.gif" alt="Checkbox Keyword Assignment" />
+		<OPENWINDOWPARAMETER features="scrollbars=1,toolbar=0" />
+	</PLUGIN>
+</PLUGINS>
